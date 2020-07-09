@@ -85,6 +85,7 @@ const Dashboard: React.FC = () => {
           </ul>
         </TextVideo>
         <iframe
+          title="video"
           src="https://www.youtube.com/embed/p0ScgVXPmDA"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
@@ -128,14 +129,18 @@ const Dashboard: React.FC = () => {
       </Advantage>
       <Footer id="footer">
         <div>
-          <a target="_blank" href={apiWhats}>
+          <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
             <FaWhatsapp
               style={{ marginRight: '15px' }}
               cursor="pointer"
               size={25}
             />
           </a>
-          <a target="_blank" href="https://www.instagram.com/engcivil.ighor/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/engcivil.ighor/"
+          >
             <FaInstagram
               style={{ marginRight: '15px' }}
               cursor="pointer"
@@ -146,6 +151,7 @@ const Dashboard: React.FC = () => {
         <div>
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/augusto-telles-471102136/"
           >
             Augusto Telles © 2020
@@ -153,7 +159,7 @@ const Dashboard: React.FC = () => {
         </div>
       </Footer>
       <Whatsapp>
-        <a target="_blank" href={apiWhats}>
+        <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
           <span>
             Venha nos <br /> conhecer
           </span>
