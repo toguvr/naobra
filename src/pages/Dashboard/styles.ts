@@ -14,6 +14,10 @@ export const CallMsg = styled.div`
   flex-direction: column;
   z-index: 1;
 
+  a {
+    align-self: center;
+  }
+
   @media (max-width: 600px) {
     align-items: center;
     width: 90%;
@@ -53,7 +57,6 @@ export const Button = styled.button`
   border-radius: 8px;
   border: none;
   position: relative;
-  align-self: center;
   margin: 20px 0;
   background: #fff;
   color: rgba(75, 75, 77);

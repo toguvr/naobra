@@ -33,7 +33,9 @@ const Dashboard: React.FC = () => {
             ALINHADO AO CONHECIMENTO TEÓRICO, VENHA CONHECER COMO A ENGENHARIA
             FUNCIONA NA PRÁTICA!!!
           </SubTitle>
-          <Button>Inscreva-se já</Button>
+          <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
+            <Button>Inscreva-se já</Button>
+          </a>
         </CallMsg>
       </Start>
       <TitleVideoSection>
