@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
-import Logo from '../../assets/logo.jpg';
+import Logo from '../../assets/1.svg';
 import {
   Container,
   Start,
@@ -156,7 +156,7 @@ const Dashboard: React.FC = () => {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/augusto-telles-471102136/"
           >
-            Augusto Telles © 2020
+            Criado por Augusto Telles © 2020
           </a>
         </div>
       </Footer>

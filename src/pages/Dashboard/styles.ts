@@ -178,11 +178,16 @@ export const Start = styled.div`
 
   img {
     z-index: 1;
-    width: 230px;
+    width: 500px;
   }
 
   @media (max-width: 600px) {
     width: 100%;
+
+    img {
+      z-index: 1;
+      width: 300px;
+    }
   }
 `;
 
