@@ -109,6 +109,11 @@ export const TextVideo = styled.div`
   li {
     margin: 8px 0;
   }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: 50px;
+  }
 `;
 
 export const Advantage = styled.div`

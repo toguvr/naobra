@@ -18,7 +18,7 @@ import {
 } from './styles';
 
 const Dashboard: React.FC = () => {
-  const msgWhats = `Ola, me interessei no curso, pode me falar um pouco melhor sobre?`;
+  const msgWhats = `Olá, gostaria de maiores informações sobre o evento #NaObra`;
 
   const apiWhats = `https://api.whatsapp.com/send?phone=+55024999308767&text=${msgWhats}`;
 
