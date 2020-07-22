@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Obraimg from '../../assets/obra.jpeg';
+import Mobile from '../../assets/mobile.jpeg';
 
 export const Container = styled.div`
   max-width: 100vw;
@@ -94,6 +96,51 @@ export const Video = styled.div`
   }
 `;
 
+export const Video2 = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+
+  div {
+    margin-left: 50px;
+    width: 50%;
+  }
+
+  p {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  iframe {
+    width: 50%;
+    height: 650px;
+  }
+
+  @media (max-width: 600px) {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 0;
+
+    div {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 90%;
+    }
+
+    p {
+      margin: 20px 0;
+    }
+
+    iframe {
+      width: 95%;
+      border: 0;
+      margin: 15px 0;
+    }
+  }
+`;
+
 export const TextVideo = styled.div`
   width: 50%;
   display: flex;
@@ -121,30 +168,13 @@ export const Advantage = styled.div`
   color: rgba(75, 75, 77);
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  align-items: stretch;
 
-  div {
-    padding: 20px;
-    width: 50%;
-  }
-
-  span {
-    font-size: 25px;
-    margin-bottom: 12px;
-  }
-
-  p {
-    margin-top: 8px;
-    font-weight: bold;
-    font-size: 20px;
-    margin-bottom: 12px;
-  }
   @media (max-width: 600px) {
-    div {
-      width: 100%;
-    }
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 `;
 
@@ -169,11 +199,15 @@ export const Footer = styled.div`
       color: lightgray;
     }
   }
+
+  @media (max-width: 600px) {
+    margin: 0 10px;
+  }
 `;
 
 export const Start = styled.div`
   height: 100vh;
-  background-image: url('https://s3.amazonaws.com/mapa-da-obra-producao/wp-content/uploads/2018/04/a-importancia-do-cronograma-de-obras-para-sua-construtora.jpg');
+  background-image: url(${Obraimg});
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -188,6 +222,7 @@ export const Start = styled.div`
 
   @media (max-width: 600px) {
     width: 100%;
+    background-image: url(${Mobile});
 
     img {
       z-index: 1;
@@ -197,7 +232,7 @@ export const Start = styled.div`
 `;
 
 export const ColorUp = styled.div`
-  background-color: rgba(75, 75, 77, 0.7);
+  background-color: rgba(120, 120, 120, 0.7);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -238,4 +273,30 @@ export const Whatsapp = styled.div`
       display: none;
     }
   }
+`;
+
+export const Card = styled.div`
+  margin: 50px 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: solid 2px rgba(75, 75, 77);
+  }
+`;
+
+export const Name = styled.div`
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0 8px;
+`;
+
+export const TextDescription = styled.div`
+  font-size: 14px;
+  text-align: justify;
 `;

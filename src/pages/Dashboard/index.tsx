@@ -1,12 +1,16 @@
 import React from 'react';
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Logo from '../../assets/1.svg';
+import Danielle from '../../assets/danielle.jpg';
+import Rodolfo from '../../assets/rodolfo.jpeg';
+import Lidiene from '../../assets/lidiene.jpeg';
 import {
   Container,
   Start,
   ColorUp,
   Video,
   Advantage,
+  Video2,
   Footer,
   Whatsapp,
   CallMsg,
@@ -15,6 +19,9 @@ import {
   Button,
   TextVideo,
   TitleVideoSection,
+  Card,
+  Name,
+  TextDescription,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -28,10 +35,10 @@ const Dashboard: React.FC = () => {
       <Start id="start">
         <img src={Logo} alt="logo NaObra" />
         <CallMsg>
-          <Title>#NaObra</Title>
+          {/* <Title>#NaObra</Title> */}
           <SubTitle>
-            ALINHADO AO CONHECIMENTO TEÓRICO, VENHA CONHECER COMO A ENGENHARIA
-            FUNCIONA NA PRÁTICA!!!
+            Alinhado ao conhecimento teórico, venha conhecer como a engenharia
+            funciona na prática!
           </SubTitle>
           <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
             <Button>Inscreva-se já</Button>
@@ -87,17 +94,64 @@ const Dashboard: React.FC = () => {
           </ul>
         </TextVideo>
         <iframe
+          width="1280"
+          height="720"
+          src="https://www.youtube.com/embed/jFq_R6gSPqs"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </Video>
+      <Advantage id="comments">
+        <Card>
+          <img src={Danielle} alt="foto Danielle" />
+          <Name>Danielle Sales</Name>
+          <TextDescription>
+            Foi muito importante para mim que não tive a vivência, saber o
+            “passo a passo” desde o início de uma construção. Porque mesmo
+            formada acho que fica tudo muito vago. Foi muito bom conhecer tudo
+            de perto, e também as informações valiosas que tivemos. Foi tudo
+            muito bem explicado!
+          </TextDescription>
+        </Card>
+        <Card>
+          <img src={Rodolfo} alt="" />
+          <Name>Rodolfo Silva</Name>
+          <TextDescription>
+            Queria deixar aqui o meu agradecimento por essa oportunidade de
+            participar do projeto NaObra, criado pelo Engenheiro Ighor. É com
+            satisfação que digo que foi muito mais do que eu esperava, a atenção
+            do Engenheiro Ighor é muito top, a forma como ele explica deixa tudo
+            muito mais claro e além de tudo, ainda ganhamos uma apostila com
+            fotos, ensaio de sondagem, nota fiscal de concretagem, tabela de
+            bitolas e entre outras coisas que são muito importantes na nossa
+            vida profissional. Só tenho a agradecer pela oportunidade. Sucesso
+            pra todos. #NaObra
+          </TextDescription>
+        </Card>
+
+        <Card>
+          <img src={Lidiene} alt="" />
+          <Name>Lidiene Venancio</Name>
+          <TextDescription>
+            Primeiramente gostaria de parabeniza-lo pelo sábado de conhecimentos
+            que você me proporcionou, foi muito interessante sua abordagem, você
+            soube conduzir as informações de forma clara e direta...muito
+            obrigada!!!
+          </TextDescription>
+        </Card>
+      </Advantage>
+      <TitleVideoSection>
+        E além de conhecer como é feito tudo isto, você ainda ganha:
+      </TitleVideoSection>
+      <Video2 id="advantage">
+        <iframe
           title="video"
           src="https://www.youtube.com/embed/p0ScgVXPmDA"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
-      </Video>
-      <Advantage id="advantage">
         <div>
-          <span>
-            E além de conhecer como é feito tudo isto, você ainda ganha:
-          </span>
           <div>
             <li>Projeto Arquitetônico;</li>
             <li>Projeto Estrutural;</li>
@@ -128,7 +182,7 @@ const Dashboard: React.FC = () => {
             QUE SIRVA DE APOIO EM SUA CARREIRA PROFISSIONAL.
           </p>
         </div>
-      </Advantage>
+      </Video2>
       <Footer id="footer">
         <div>
           <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
