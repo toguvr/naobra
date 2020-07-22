@@ -15,7 +15,6 @@ import {
   Whatsapp,
   CallMsg,
   SubTitle,
-  Title,
   Button,
   TextVideo,
   TitleVideoSection,
