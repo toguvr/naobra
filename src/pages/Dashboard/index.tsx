@@ -15,6 +15,7 @@ import {
   Whatsapp,
   CallMsg,
   SubTitle,
+  TitleComments,
   // Button,
   TextVideo,
   TitleVideoSection,
@@ -101,6 +102,7 @@ const Dashboard: React.FC = () => {
           allowFullScreen
         />
       </Video>
+      <TitleComments>Comentários de quem já foi:</TitleComments>
       <Advantage id="comments">
         <Card>
           <img src={Danielle} alt="foto Danielle" />
@@ -149,6 +151,7 @@ const Dashboard: React.FC = () => {
           src="https://www.youtube.com/embed/p0ScgVXPmDA"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
+          frameBorder="0"
         />
         <div>
           <div>

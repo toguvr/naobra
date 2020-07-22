@@ -46,6 +46,15 @@ export const TitleVideoSection = styled.div`
   text-align: center;
 `;
 
+export const TitleComments = styled.div`
+  color: rgba(75, 75, 77);
+  background: rgb(192, 194, 191);
+  padding: 20px 0 0;
+  margin: 20px 0 0;
+  font-size: 20px;
+  text-align: center;
+`;
+
 export const SubTitle = styled.span`
   color: #cecece;
   font-size: 30px;
