@@ -61,7 +61,8 @@ const Dashboard: React.FC = () => {
 
             <li>Como executar os pilares (Armação, Forma e Concretagem);</li>
             <li>Como executar as vigas (Armação, Forma e Concretagem);</li>
-            <li>Como executar laje nervurada; Como executar laje maciça;</li>
+            <li>Como executar laje nervurada;</li>
+            <li> Como executar laje maciça;</li>
             <li>
               Como executar alvenaria com bloco de concreto celular autoclavado;
             </li>
@@ -176,7 +177,7 @@ const Dashboard: React.FC = () => {
             <li>+ 5 ebooks sobre temas variados da engenharia.</li>
           </div>
           <p>
-            E VOCÊ GANHARÁ UM LIVRO COM TODO O CONTEÚDO ABORDADO NA OBRA PARA
+            E VOCÊ GANHARÁ UM APOSTILA COM TODO O CONTEÚDO ABORDADO NA OBRA PARA
             QUE SIRVA DE APOIO EM SUA CARREIRA PROFISSIONAL.
           </p>
         </div>
