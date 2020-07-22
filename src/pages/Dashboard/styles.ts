@@ -27,6 +27,7 @@ export const CallMsg = styled.div`
 
     img {
       margin-bottom: 40px;
+      z-index: 2;
     }
   }
 `;
@@ -238,7 +239,8 @@ export const Start = styled.div`
     background-image: url(${Mobile});
 
     img {
-      z-index: 1;
+      z-index: 2;
+
       width: 300px;
     }
   }
