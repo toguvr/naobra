@@ -93,8 +93,7 @@ const Dashboard: React.FC = () => {
           </ul>
         </TextVideo>
         <iframe
-          width="1280"
-          height="720"
+          title="com alunos"
           src="https://www.youtube.com/embed/jFq_R6gSPqs"
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -145,7 +144,7 @@ const Dashboard: React.FC = () => {
       </TitleVideoSection>
       <Video2 id="advantage">
         <iframe
-          title="video"
+          title="video chamada"
           src="https://www.youtube.com/embed/p0ScgVXPmDA"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
