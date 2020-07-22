@@ -120,11 +120,9 @@ const Dashboard: React.FC = () => {
           <img src={Daiana} alt="foto Daiana" />
           <Name>Daiana Rodrigues</Name>
           <TextDescription>
-            Ighor quero te parabenizar pela sua grande iniciativa com esse
-            projeto , quero que saiba que estou muito feliz pelo aprendizado Hj,
-            desejo todo sucesso com esse projeto, e adorei a companhia das
-            meninas Tbm, espero que nos possamos nos ver novamente,um grande
-            abraço e um bom final de semana pra todos
+            Ighor, quero te parabenizar pela sua grande iniciativa com esse
+            projeto, quero que saiba que estou muito feliz pelo aprendizado,
+            desejo todo sucesso com esse projeto.
           </TextDescription>
         </Card>
         <Card>
