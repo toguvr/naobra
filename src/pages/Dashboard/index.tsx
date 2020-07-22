@@ -15,7 +15,7 @@ import {
   Whatsapp,
   CallMsg,
   SubTitle,
-  Button,
+  // Button,
   TextVideo,
   TitleVideoSection,
   Card,
@@ -32,16 +32,16 @@ const Dashboard: React.FC = () => {
     <Container>
       <ColorUp />
       <Start id="start">
-        <img src={Logo} alt="logo NaObra" />
         <CallMsg>
+          <img src={Logo} alt="logo NaObra" />
           {/* <Title>#NaObra</Title> */}
           <SubTitle>
             Alinhado ao conhecimento teórico, venha conhecer como a engenharia
             funciona na prática!
           </SubTitle>
-          <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
+          {/* <a target="_blank" rel="noopener noreferrer" href={apiWhats}>
             <Button>Inscreva-se já</Button>
-          </a>
+          </a> */}
         </CallMsg>
       </Start>
       <TitleVideoSection>

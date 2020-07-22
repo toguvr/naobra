@@ -11,19 +11,23 @@ export const CallMsg = styled.div`
   width: 70%;
   height: 60%;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
 
-  a {
-    align-self: center;
+  img {
+    margin-bottom: 150px;
   }
 
   @media (max-width: 600px) {
     align-items: center;
     width: 90%;
     height: 60%;
+
+    img {
+      margin-bottom: 40px;
+    }
   }
 `;
 
