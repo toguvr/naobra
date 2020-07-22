@@ -4,6 +4,7 @@ import Logo from '../../assets/1.svg';
 import Danielle from '../../assets/danielle.jpg';
 import Rodolfo from '../../assets/rodolfo.jpeg';
 import Lidiene from '../../assets/lidiene.jpeg';
+import Daiana from '../../assets/daiana.jpeg';
 import {
   Container,
   Start,
@@ -113,6 +114,17 @@ const Dashboard: React.FC = () => {
             formada acho que fica tudo muito vago. Foi muito bom conhecer tudo
             de perto, e também as informações valiosas que tivemos. Foi tudo
             muito bem explicado!
+          </TextDescription>
+        </Card>
+        <Card>
+          <img src={Daiana} alt="foto Daiana" />
+          <Name>Daiana Rodrigues</Name>
+          <TextDescription>
+            Ighor quero te parabenizar pela sua grande iniciativa com esse
+            projeto , quero que saiba que estou muito feliz pelo aprendizado Hj,
+            desejo todo sucesso com esse projeto, e adorei a companhia das
+            meninas Tbm, espero que nos possamos nos ver novamente,um grande
+            abraço e um bom final de semana pra todos
           </TextDescription>
         </Card>
         <Card>
