@@ -103,7 +103,7 @@ const Dashboard: React.FC = () => {
           allowFullScreen
         />
       </Video>
-      <TitleComments>Comentários de quem já foi:</TitleComments>
+      <TitleComments>Comentários de quem já participou:</TitleComments>
       <Advantage id="comments">
         <Card>
           <img src={Danielle} alt="foto Danielle" />
