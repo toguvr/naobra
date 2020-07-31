@@ -4,7 +4,7 @@ import Logo from '../../assets/1.svg';
 import Danielle from '../../assets/danielle.jpg';
 import Rodolfo from '../../assets/rodolfo.jpeg';
 import Lidiene from '../../assets/lidiene.jpeg';
-import Daiana from '../../assets/daiana.jpeg';
+import Caio from '../../assets/caio.jpeg';
 import {
   Container,
   Start,
@@ -106,6 +106,17 @@ const Dashboard: React.FC = () => {
       <TitleComments>Comentários de quem já participou:</TitleComments>
       <Advantage id="comments">
         <Card>
+          <img src={Caio} alt="foto Daiana" />
+          <Name>Daiana Rodrigues</Name>
+          <TextDescription>
+            Participar do #NaObra foi certamente uma experiência que valeu a
+            pena. Como estudante de engenharia, pude conhecer na prática os meus
+            estudos. Além de práticas como fazer um estribo, tirar ponto de
+            nível, e usar um prumo e foi disponibilizado uma apostila que vou
+            levar para a vida toda. Obrigado pelo projeto e que isso continue!!
+          </TextDescription>
+        </Card>
+        <Card>
           <img src={Danielle} alt="foto Danielle" />
           <Name>Danielle Sales</Name>
           <TextDescription>
@@ -114,15 +125,6 @@ const Dashboard: React.FC = () => {
             formada acho que fica tudo muito vago. Foi muito bom conhecer tudo
             de perto, e também as informações valiosas que tivemos. Foi tudo
             muito bem explicado!
-          </TextDescription>
-        </Card>
-        <Card>
-          <img src={Daiana} alt="foto Daiana" />
-          <Name>Daiana Rodrigues</Name>
-          <TextDescription>
-            Ighor, quero te parabenizar pela sua grande iniciativa com esse
-            projeto, quero que saiba que estou muito feliz pelo aprendizado,
-            desejo todo sucesso com esse projeto.
           </TextDescription>
         </Card>
         <Card>
