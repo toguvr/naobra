@@ -4,7 +4,7 @@ import Logo from '../../assets/1.svg';
 import Danielle from '../../assets/danielle.jpg';
 import Rodolfo from '../../assets/rodolfo.jpeg';
 import Lidiene from '../../assets/lidiene.jpeg';
-import Caio from '../../assets/caio.jpeg';
+import Caio from '../../assets/caio.jpg';
 import {
   Container,
   Start,
@@ -107,7 +107,7 @@ const Dashboard: React.FC = () => {
       <Advantage id="comments">
         <Card>
           <img src={Caio} alt="foto Daiana" />
-          <Name>Daiana Rodrigues</Name>
+          <Name>Caio César</Name>
           <TextDescription>
             Participar do #NaObra foi certamente uma experiência que valeu a
             pena. Como estudante de engenharia, pude conhecer na prática os meus
